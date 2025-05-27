@@ -20,8 +20,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.10424354243542436,
-            "y": 0.210412147505423,
+            "x": 0.09870848708487084,
+            "y": 0.13882863340563992,
             "uniqueID": 1748377692845,
             "ioValues": [
                 {
@@ -34,8 +34,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.18911439114391143,
-            "y": 0.193058568329718,
+            "x": 0.19833948339483393,
+            "y": 0.1301518438177874,
             "uniqueID": 1748377907875,
             "ioValues": [
                 {
@@ -52,8 +52,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.09963099630996311,
-            "y": 0.4078091106290673,
+            "x": 0.09686346863468634,
+            "y": 0.24295010845986983,
             "uniqueID": 1748378026037,
             "ioValues": [
                 {
@@ -66,8 +66,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.21494464944649447,
-            "y": 0.41865509761388287,
+            "x": 0.23247232472324725,
+            "y": 0.23861171366594364,
             "uniqueID": 1748378040290,
             "ioValues": [
                 {
@@ -84,8 +84,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.2952029520295203,
-            "y": 0.25162689804772237,
+            "x": 0.33302583025830257,
+            "y": 0.12581344902386118,
             "uniqueID": 1748378129100,
             "ioValues": [
                 {
@@ -102,8 +102,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.11254612546125461,
-            "y": 0.579175704989154,
+            "x": 0.10055350553505535,
+            "y": 0.3600867678958785,
             "uniqueID": 1748378177179,
             "ioValues": [
                 {
@@ -120,8 +120,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.507380073800738,
-            "y": 0.5509761388286334,
+            "x": 0.4649446494464945,
+            "y": 0.3882863340563992,
             "uniqueID": 1748378202430,
             "ioValues": [
                 {
@@ -138,8 +138,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.11070110701107011,
-            "y": 0.7245119305856833,
+            "x": 0.10147601476014759,
+            "y": 0.4663774403470716,
             "uniqueID": 1748378323434,
             "ioValues": [
                 {
@@ -152,8 +152,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.22140221402214022,
-            "y": 0.7006507592190889,
+            "x": 0.23247232472324725,
+            "y": 0.46854663774403477,
             "uniqueID": 1748378339287,
             "ioValues": [
                 {
@@ -178,8 +178,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.32287822878228783,
-            "y": 0.5661605206073753,
+            "x": 0.31734317343173435,
+            "y": 0.36225596529284165,
             "uniqueID": 1748378415119,
             "ioValues": [
                 {
@@ -196,8 +196,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.13745387453874539,
-            "y": 0.8199566160520607,
+            "x": 0.10147601476014759,
+            "y": 0.6073752711496746,
             "uniqueID": 1748378545276,
             "ioValues": [
                 {
@@ -206,7 +206,7 @@
                 },
                 {
                     "name": "y length",
-                    "ioValue": 250
+                    "ioValue": 125
                 }
             ],
             "description": "Creates a new rectangle."
@@ -214,8 +214,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.13284132841328414,
-            "y": 0.9349240780911062,
+            "x": 0.09870848708487084,
+            "y": 0.735357917570499,
             "uniqueID": 1748378545581,
             "ioValues": [
                 {
@@ -228,8 +228,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.24907749077490773,
-            "y": 0.9370932754880695,
+            "x": 0.25830258302583026,
+            "y": 0.7505422993492408,
             "uniqueID": 1748378544961,
             "ioValues": [
                 {
@@ -254,20 +254,90 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.34686346863468637,
-            "y": 0.8004338394793926,
+            "x": 0.3579335793357934,
+            "y": 0.5835140997830802,
             "uniqueID": 1748378545549,
             "ioValues": [
                 {
                     "name": "geometry1",
-                    "ioValue": 1748378545276
+                    "ioValue": 1748378641045
                 },
                 {
                     "name": "geometry2",
-                    "ioValue": 1748378339287
+                    "ioValue": 1748378544961
                 }
             ],
             "description": "Subtracts shape two from shape one."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.23616236162361623,
+            "y": 0.6182212581344902,
+            "uniqueID": 1748378641045,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1748378545276
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 62.5
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.470479704797048,
+            "y": 0.5835140997830802,
+            "uniqueID": 1748378773369,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1748378545549
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 39
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.09594095940959409,
+            "y": 0.841648590021692,
+            "uniqueID": 1748378864966,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new rectangle."
         }
     ],
     "allConnectors": [
@@ -329,10 +399,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 1748378545276,
-            "ap2ID": 1748378545549
+            "ap2ID": 1748378641045
         },
         {
             "ap1Name": "geometry",
@@ -341,7 +411,27 @@
             "ap1ID": 1748378545581,
             "ap2ID": 1748378544961
         },
-        null
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 1748378544961,
+            "ap2ID": 1748378545549
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1748378545549,
+            "ap2ID": 1748378773369
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 1748378641045,
+            "ap2ID": 1748378545549
+        }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,

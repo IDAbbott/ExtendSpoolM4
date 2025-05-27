@@ -34,8 +34,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.19833948339483393,
-            "y": 0.1301518438177874,
+            "x": 0.16974169741697417,
+            "y": 0.1475054229934924,
             "uniqueID": 1748377907875,
             "ioValues": [
                 {
@@ -52,8 +52,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.09686346863468634,
-            "y": 0.24295010845986983,
+            "x": 0.03505535055350553,
+            "y": 0.23210412147505424,
             "uniqueID": 1748378026037,
             "ioValues": [
                 {
@@ -66,8 +66,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.23247232472324725,
-            "y": 0.23861171366594364,
+            "x": 0.22232472324723246,
+            "y": 0.20390455531453364,
             "uniqueID": 1748378040290,
             "ioValues": [
                 {
@@ -82,28 +82,10 @@
             "description": "Extrudes a 2D shape. Input can be negitive. "
         },
         {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.33302583025830257,
-            "y": 0.12581344902386118,
-            "uniqueID": 1748378129100,
-            "ioValues": [
-                {
-                    "name": "geometry1",
-                    "ioValue": 1748377907875
-                },
-                {
-                    "name": "geometry2",
-                    "ioValue": 1748378040290
-                }
-            ],
-            "description": "Subtracts shape two from shape one."
-        },
-        {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.10055350553505535,
-            "y": 0.3600867678958785,
+            "x": 0.10977859778597786,
+            "y": 0.29718004338394793,
             "uniqueID": 1748378177179,
             "ioValues": [
                 {
@@ -120,8 +102,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4649446494464945,
-            "y": 0.3882863340563992,
+            "x": 0.3607011070110701,
+            "y": 0.21258134490238612,
             "uniqueID": 1748378202430,
             "ioValues": [
                 {
@@ -138,8 +120,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.10147601476014759,
-            "y": 0.4663774403470716,
+            "x": 0.042435424354243544,
+            "y": 0.3731019522776573,
             "uniqueID": 1748378323434,
             "ioValues": [
                 {
@@ -152,8 +134,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.23247232472324725,
-            "y": 0.46854663774403477,
+            "x": 0.20202952029520296,
+            "y": 0.3557483731019523,
             "uniqueID": 1748378339287,
             "ioValues": [
                 {
@@ -178,8 +160,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.31734317343173435,
-            "y": 0.36225596529284165,
+            "x": 0.2629151291512915,
+            "y": 0.27765726681127983,
             "uniqueID": 1748378415119,
             "ioValues": [
                 {
@@ -196,8 +178,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.0940959409594096,
-            "y": 0.5856832971800433,
+            "x": 0.11070110701107011,
+            "y": 0.4316702819956616,
             "uniqueID": 1748378545276,
             "ioValues": [
                 {
@@ -214,8 +196,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.09870848708487084,
-            "y": 0.735357917570499,
+            "x": 0.039667896678966794,
+            "y": 0.5075921908893709,
             "uniqueID": 1748378545581,
             "ioValues": [
                 {
@@ -228,8 +210,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.20018450184501846,
-            "y": 0.7310195227765727,
+            "x": 0.2952029520295203,
+            "y": 0.4902386117136659,
             "uniqueID": 1748378544961,
             "ioValues": [
                 {
@@ -254,8 +236,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.3191881918819188,
-            "y": 0.6008676789587852,
+            "x": 0.3726937269372694,
+            "y": 0.34490238611713664,
             "uniqueID": 1748378545549,
             "ioValues": [
                 {
@@ -272,8 +254,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.235239852398524,
-            "y": 0.6073752711496746,
+            "x": 0.19926199261992622,
+            "y": 0.4555314533622559,
             "uniqueID": 1748378641045,
             "ioValues": [
                 {
@@ -298,8 +280,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4806273062730627,
-            "y": 0.5054229934924078,
+            "x": 0.5009225092250923,
+            "y": 0.4078091106290673,
             "uniqueID": 1748378773369,
             "ioValues": [
                 {
@@ -324,8 +306,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.09594095940959409,
-            "y": 0.841648590021692,
+            "x": 0.11162361623616236,
+            "y": 0.5704989154013015,
             "uniqueID": 1748378864966,
             "ioValues": [
                 {
@@ -342,8 +324,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.20571955719557197,
-            "y": 0.8373101952277657,
+            "x": 0.21309963099631,
+            "y": 0.5726681127982647,
             "uniqueID": 1748378902760,
             "ioValues": [
                 {
@@ -360,8 +342,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.448339483394834,
-            "y": 0.8481561822125814,
+            "x": 0.4215867158671586,
+            "y": 0.5032537960954447,
             "uniqueID": 1748378931163,
             "ioValues": [
                 {
@@ -386,8 +368,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6383763837638377,
-            "y": 0.4555314533622559,
+            "x": 0.6439114391143912,
+            "y": 0.44251626898047725,
             "uniqueID": 1748378999545,
             "ioValues": [
                 {
@@ -412,8 +394,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4049815498154981,
-            "y": 0.5271149674620391,
+            "x": 0.44649446494464945,
+            "y": 0.3644251626898048,
             "uniqueID": 1748379056057,
             "ioValues": [
                 {
@@ -430,13 +412,13 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.46033210332103325,
-            "y": 0.12364425162689803,
+            "x": 0.48154981549815495,
+            "y": 0.08242950108459869,
             "uniqueID": 1748379320583,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1748378129100
+                    "ioValue": 1748380491131
                 },
                 {
                     "name": "xDist",
@@ -456,8 +438,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.33856088560885605,
-            "y": 0.7396963123644252,
+            "x": 0.33579335793357934,
+            "y": 0.5748373101952278,
             "uniqueID": 1748379944488,
             "ioValues": [
                 {
@@ -478,6 +460,88 @@
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.35147601476014756,
+            "y": 0.09327548806941433,
+            "uniqueID": 1748380491131,
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": 1748377907875
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": 1748378040290
+                }
+            ],
+            "description": "Subtracts shape two from shape one."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.043357933579335796,
+            "y": 0.6941431670281996,
+            "uniqueID": 1748380600054,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 60
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.04151291512915129,
+            "y": 0.8373101952277657,
+            "uniqueID": 1748380609097,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 50
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.13560885608856088,
+            "y": 0.6724511930585684,
+            "uniqueID": 1748380620655,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1748380600054
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.14022140221402213,
+            "y": 0.8438177874186551,
+            "uniqueID": 1748380624050,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1748380609097
+                },
+                {
+                    "name": "height",
+                    "ioValue": 5
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
         }
     ],
     "allConnectors": [
@@ -493,7 +557,7 @@
             "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": 1748377907875,
-            "ap2ID": 1748378129100
+            "ap2ID": 1748380491131
         },
         {
             "ap1Name": "geometry",
@@ -507,14 +571,7 @@
             "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": 1748378040290,
-            "ap2ID": 1748378129100
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1748378129100,
-            "ap2ID": 1748379320583
+            "ap2ID": 1748380491131
         },
         {
             "ap1Name": "geometry",
@@ -634,6 +691,27 @@
             "ap2Primary": true,
             "ap1ID": 1748379944488,
             "ap2ID": 1748378931163
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1748380491131,
+            "ap2ID": 1748379320583
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1748380600054,
+            "ap2ID": 1748380620655
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1748380609097,
+            "ap2ID": 1748380624050
         }
     ],
     "unitsKey": "MM",

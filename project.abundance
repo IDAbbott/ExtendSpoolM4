@@ -48,6 +48,92 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.09963099630996311,
+            "y": 0.4078091106290673,
+            "uniqueID": 1748378026037,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.21494464944649447,
+            "y": 0.41865509761388287,
+            "uniqueID": 1748378040290,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1748378026037
+                },
+                {
+                    "name": "height",
+                    "ioValue": 36
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.2952029520295203,
+            "y": 0.25162689804772237,
+            "uniqueID": 1748378129100,
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": 1748377907875
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": 1748378040290
+                }
+            ],
+            "description": "Subtracts shape two from shape one."
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.10977859778597786,
+            "y": 0.5900216919739696,
+            "uniqueID": 1748378177179,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 250
+                }
+            ],
+            "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.23247232472324725,
+            "y": 0.5704989154013015,
+            "uniqueID": 1748378202430,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1748378177179
+                },
+                {
+                    "name": "height",
+                    "ioValue": 5
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
         }
     ],
     "allConnectors": [
@@ -57,6 +143,34 @@
             "ap2Primary": true,
             "ap1ID": 1748377692845,
             "ap2ID": 1748377907875
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 1748377907875,
+            "ap2ID": 1748378129100
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1748378026037,
+            "ap2ID": 1748378040290
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 1748378040290,
+            "ap2ID": 1748378129100
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1748378177179,
+            "ap2ID": 1748378202430
         }
     ],
     "unitsKey": "MM",

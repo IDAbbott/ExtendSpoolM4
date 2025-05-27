@@ -196,8 +196,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.10147601476014759,
-            "y": 0.6073752711496746,
+            "x": 0.09594095940959409,
+            "y": 0.5965292841648591,
             "uniqueID": 1748378545276,
             "ioValues": [
                 {
@@ -206,7 +206,7 @@
                 },
                 {
                     "name": "y length",
-                    "ioValue": 55
+                    "ioValue": 58
                 }
             ],
             "description": "Creates a new rectangle."
@@ -272,8 +272,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.23616236162361623,
-            "y": 0.6182212581344902,
+            "x": 0.235239852398524,
+            "y": 0.6073752711496746,
             "uniqueID": 1748378641045,
             "ioValues": [
                 {
@@ -286,7 +286,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 75
+                    "ioValue": 98.5
                 },
                 {
                     "name": "zDist",
@@ -298,8 +298,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.47232472324723246,
-            "y": 0.6984815618221258,
+            "x": 0.4806273062730627,
+            "y": 0.5054229934924078,
             "uniqueID": 1748378773369,
             "ioValues": [
                 {
@@ -386,8 +386,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5977859778597786,
-            "y": 0.7418655097613883,
+            "x": 0.6374538745387454,
+            "y": 0.4880694143167028,
             "uniqueID": 1748378999545,
             "ioValues": [
                 {
@@ -401,6 +401,10 @@
                 {
                     "name": "Shape 3",
                     "ioValue": 1748378931163
+                },
+                {
+                    "name": "Shape 4",
+                    "ioValue": 1748379320583
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -422,6 +426,32 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.46033210332103325,
+            "y": 0.12364425162689803,
+            "uniqueID": 1748379320583,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1748378129100
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 115
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 5
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -452,6 +482,13 @@
             "ap2Primary": false,
             "ap1ID": 1748378040290,
             "ap2ID": 1748378129100
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1748378129100,
+            "ap2ID": 1748379320583
         },
         {
             "ap1Name": "geometry",
@@ -557,6 +594,13 @@
             "ap2Primary": true,
             "ap1ID": 1748379056057,
             "ap2ID": 1748378773369
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 4",
+            "ap2Primary": false,
+            "ap1ID": 1748379320583,
+            "ap2ID": 1748378999545
         }
     ],
     "unitsKey": "MM",

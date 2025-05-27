@@ -94,7 +94,7 @@
                 },
                 {
                     "name": "y length",
-                    "ioValue": 250
+                    "ioValue": 80
                 }
             ],
             "description": "Creates a new rectangle."
@@ -178,8 +178,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.11070110701107011,
-            "y": 0.4316702819956616,
+            "x": 0.11808118081180811,
+            "y": 0.438177874186551,
             "uniqueID": 1748378545276,
             "ioValues": [
                 {
@@ -368,8 +368,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6439114391143912,
-            "y": 0.44251626898047725,
+            "x": 0.6476014760147601,
+            "y": 0.45119305856832975,
             "uniqueID": 1748378999545,
             "ioValues": [
                 {
@@ -387,6 +387,10 @@
                 {
                     "name": "Shape 4",
                     "ioValue": 1748379320583
+                },
+                {
+                    "name": "Shape 5",
+                    "ioValue": 1748380706661
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -510,8 +514,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.13560885608856088,
-            "y": 0.6724511930585684,
+            "x": 0.14667896678966788,
+            "y": 0.7093275488069414,
             "uniqueID": 1748380620655,
             "ioValues": [
                 {
@@ -520,7 +524,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 5
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -542,6 +546,50 @@
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.2767527675276753,
+            "y": 0.7180043383947939,
+            "uniqueID": 1748380689118,
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": 1748380620655
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": 1748380624050
+                }
+            ],
+            "description": "Subtracts shape two from shape one."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.38099630996309963,
+            "y": 0.7093275488069414,
+            "uniqueID": 1748380706661,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1748380689118
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": -150
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -712,6 +760,34 @@
             "ap2Primary": true,
             "ap1ID": 1748380609097,
             "ap2ID": 1748380624050
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 1748380620655,
+            "ap2ID": 1748380689118
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 1748380624050,
+            "ap2ID": 1748380689118
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1748380689118,
+            "ap2ID": 1748380706661
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 5",
+            "ap2Primary": false,
+            "ap1ID": 1748380706661,
+            "ap2ID": 1748378999545
         }
     ],
     "unitsKey": "MM",

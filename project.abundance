@@ -41,7 +41,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1748397486450
+                            "ioValue": 1748399027666
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -145,7 +145,7 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.27398523985239853,
+                    "x": 0.27490774907749077,
                     "y": 0.8004338394793926,
                     "uniqueID": 1748381386526,
                     "ioValues": [
@@ -159,7 +159,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 180
+                            "ioValue": 160
                         },
                         {
                             "name": "zDist",
@@ -185,7 +185,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 126
+                            "ioValue": 120
                         },
                         {
                             "name": "zDist",
@@ -277,7 +277,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 200
+                            "ioValue": 160
                         },
                         {
                             "name": "zDist",
@@ -321,7 +321,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 126
+                            "ioValue": 80
                         },
                         {
                             "name": "zDist",
@@ -351,8 +351,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.3376383763837638,
-                    "y": 0.6637744034707158,
+                    "x": 0.3238007380073801,
+                    "y": 0.6594360086767895,
                     "uniqueID": 1748383460411,
                     "ioValues": [
                         {
@@ -369,8 +369,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.45571955719557194,
-                    "y": 0.5748373101952278,
+                    "x": 0.452029520295203,
+                    "y": 0.5596529284164858,
                     "uniqueID": 1748383503489,
                     "ioValues": [
                         {
@@ -387,9 +387,9 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.8136531365313653,
-                    "y": 0.5054229934924078,
-                    "uniqueID": 1748397486450,
+                    "x": 0.757380073800738,
+                    "y": 0.6160520607375272,
+                    "uniqueID": 1748399027666,
                     "ioValues": [
                         {
                             "name": "geometry",
@@ -401,7 +401,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 100
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -480,7 +480,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1748381386669,
-                    "ap2ID": 1748397486450
+                    "ap2ID": 1748399027666
                 },
                 {
                     "ap1Name": "geometry",
@@ -549,7 +549,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 1748397486450,
+                    "ap1ID": 1748399027666,
                     "ap2ID": 1748381315376
                 }
             ],

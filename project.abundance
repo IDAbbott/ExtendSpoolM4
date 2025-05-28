@@ -615,7 +615,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 90
+                            "ioValue": 100
                         }
                     ],
                     "description": "Creates a new circle."
@@ -629,7 +629,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 86
+                            "ioValue": 90
                         }
                     ],
                     "description": "Creates a new circle."
@@ -735,8 +735,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.27767527675276754,
-                    "y": 0.8156182212581345,
+                    "x": 0.2767527675276753,
+                    "y": 0.8004338394793926,
                     "uniqueID": 1748395952665,
                     "ioValues": [
                         {
@@ -749,7 +749,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 141
+                            "ioValue": 150
                         },
                         {
                             "name": "zDist",
@@ -789,7 +789,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 230
+                            "ioValue": 240
                         },
                         {
                             "name": "zDist",

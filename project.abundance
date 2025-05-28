@@ -949,8 +949,8 @@
         {
             "atomType": "Molecule",
             "name": "Center",
-            "x": 0.17250922509225092,
-            "y": 0.5206073752711496,
+            "x": 0.16420664206642066,
+            "y": 0.5227765726681127,
             "uniqueID": 1748395952678,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -959,8 +959,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
+                    "x": 0.9741697416974169,
+                    "y": 0.48590021691973967,
                     "uniqueID": 1748395952391,
                     "ioValues": [
                         {
@@ -1069,7 +1069,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -138
+                            "ioValue": -220
                         },
                         {
                             "name": "zDist",
@@ -1099,8 +1099,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3118081180811808,
-                    "y": 0.806941431670282,
+                    "x": 0.2813653136531365,
+                    "y": 0.8047722342733189,
                     "uniqueID": 1748395952665,
                     "ioValues": [
                         {
@@ -1113,7 +1113,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -10
+                            "ioValue": -92
                         },
                         {
                             "name": "zDist",
@@ -1153,7 +1153,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 80
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",

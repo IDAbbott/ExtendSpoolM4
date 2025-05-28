@@ -159,7 +159,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 240
+                            "ioValue": 180
                         },
                         {
                             "name": "zDist",
@@ -185,7 +185,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 200
+                            "ioValue": 126
                         },
                         {
                             "name": "zDist",
@@ -321,7 +321,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 130
+                            "ioValue": 126
                         },
                         {
                             "name": "zDist",
@@ -369,8 +369,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.4511070110701107,
-                    "y": 0.5856832971800433,
+                    "x": 0.45571955719557194,
+                    "y": 0.5748373101952278,
                     "uniqueID": 1748383503489,
                     "ioValues": [
                         {

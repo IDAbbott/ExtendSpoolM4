@@ -615,7 +615,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 60
+                            "ioValue": 90
                         }
                     ],
                     "description": "Creates a new circle."
@@ -623,13 +623,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.14575645756457564,
-                    "y": 0.5596529284164858,
+                    "x": 0.14760147601476015,
+                    "y": 0.5574837310195228,
                     "uniqueID": 1748395953244,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 50
+                            "ioValue": 86
                         }
                     ],
                     "description": "Creates a new circle."
@@ -749,7 +749,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 128
+                            "ioValue": 141
                         },
                         {
                             "name": "zDist",
@@ -789,7 +789,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 220
+                            "ioValue": 230
                         },
                         {
                             "name": "zDist",
@@ -837,8 +837,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5747232472324724,
-                    "y": 0.6702819956616053,
+                    "x": 0.5765682656826568,
+                    "y": 0.6637744034707158,
                     "uniqueID": 1748395952855,
                     "ioValues": [
                         {

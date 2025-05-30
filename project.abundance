@@ -63,8 +63,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.2444649446494465,
-                    "y": 0.12147505422993492,
+                    "x": 0.24104803493449778,
+                    "y": 0.11496746203904555,
                     "uniqueID": 1748381386122,
                     "ioValues": [
                         {
@@ -73,7 +73,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 38
+                            "ioValue": 40
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -197,8 +197,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5230627306273063,
-                    "y": 0.39479392624728854,
+                    "x": 0.48384279475982533,
+                    "y": 0.8741865509761388,
                     "uniqueID": 1748381385737,
                     "ioValues": [
                         {
@@ -207,7 +207,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 90
                         },
                         {
                             "name": "yDist",
@@ -215,7 +215,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 42.5
+                            "ioValue": 0
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -223,17 +223,13 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6669741697416974,
-                    "y": 0.4663774403470716,
+                    "x": 0.7004366812227074,
+                    "y": 0.3796095444685466,
                     "uniqueID": 1748381386669,
                     "ioValues": [
                         {
                             "name": "Shape 3",
                             "ioValue": 1748381386524
-                        },
-                        {
-                            "name": "Shape 5",
-                            "ioValue": 1748381385737
                         },
                         {
                             "name": "Shape 9",
@@ -281,7 +277,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 5
+                            "ioValue": 0
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -401,7 +397,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 150
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -409,6 +405,66 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.6296943231441048,
+                    "y": 0.8720173535791758,
+                    "uniqueID": 1748587759402,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1748381385737
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "planet"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "SVG"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": null,
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "partName": "planet"
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.6646288209606988,
+                    "y": 0.6225596529284165,
+                    "uniqueID": 1748587783728,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1748381386669
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "planet"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "STEP"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": "STEP",
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "partName": "planet"
                 }
             ],
             "allConnectors": [
@@ -470,10 +526,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 5",
+                    "ap2Name": "geometry",
                     "ap2Primary": false,
                     "ap1ID": 1748381385737,
-                    "ap2ID": 1748381386669
+                    "ap2ID": 1748587759402
                 },
                 {
                     "ap1Name": "geometry",
@@ -481,6 +537,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1748381386669,
                     "ap2ID": 1748399027666
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1748381386669,
+                    "ap2ID": 1748587783728
                 },
                 {
                     "ap1Name": "geometry",

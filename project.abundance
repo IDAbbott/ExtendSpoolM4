@@ -11,8 +11,8 @@
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.9414847161572053,
-            "y": 0.47071583514099785,
+            "x": 0.9336244541484716,
+            "y": 0.46203904555314534,
             "uniqueID": 1748377672174,
             "ioValues": [
                 {
@@ -1521,7 +1521,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 12.2
+                            "ioValue": 6.2
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."

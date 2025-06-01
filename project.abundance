@@ -1504,7 +1504,7 @@
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.5423580786026201,
-                    "y": 0.10629067245119306,
+                    "y": 0.09761388286334058,
                     "uniqueID": 1748811171557,
                     "ioValues": [
                         {
@@ -1521,7 +1521,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 6.2
+                            "ioValue": 12.2
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1543,11 +1543,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -190
+                            "ioValue": 190
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 18.2
+                            "ioValue": 6.2
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1581,7 +1581,7 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5406113537117904,
+                    "x": 0.5423580786026201,
                     "y": 0.6073752711496746,
                     "uniqueID": 1748811298539,
                     "ioValues": [
@@ -1591,7 +1591,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 190
+                            "ioValue": -190
                         },
                         {
                             "name": "yDist",
@@ -1599,7 +1599,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 6.2
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."

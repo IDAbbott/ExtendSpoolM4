@@ -1349,8 +1349,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7343173431734318,
-            "y": 0.3232104121475054,
+            "x": 0.7606986899563318,
+            "y": 0.4837310195227766,
             "uniqueID": 1748399460523,
             "ioValues": [
                 {
@@ -1360,6 +1360,10 @@
                 {
                     "name": "Shape 2",
                     "ioValue": 1748399391741
+                },
+                {
+                    "name": "Shape 3",
+                    "ioValue": 1748810940868
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -1403,8 +1407,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9737991266375545,
-                    "y": 0.4989154013015184,
+                    "x": 0.9624454148471615,
+                    "y": 0.49240780911062904,
                     "uniqueID": 1748810941514,
                     "ioValues": [
                         {
@@ -1513,7 +1517,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 20
+                            "ioValue": 190
                         },
                         {
                             "name": "zDist",
@@ -1525,8 +1529,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5458515283842794,
-                    "y": 0.2646420824295011,
+                    "x": 0.5441048034934498,
+                    "y": 0.25379609544468545,
                     "uniqueID": 1748811175660,
                     "ioValues": [
                         {
@@ -1539,7 +1543,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -20
+                            "ioValue": -190
                         },
                         {
                             "name": "zDist",
@@ -1561,7 +1565,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -20
+                            "ioValue": -190
                         },
                         {
                             "name": "yDist",
@@ -1587,7 +1591,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 20
+                            "ioValue": 190
                         },
                         {
                             "name": "yDist",
@@ -1721,7 +1725,7 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         }
     ],
     "allConnectors": [
@@ -1878,6 +1882,13 @@
             "ap2Primary": false,
             "ap1ID": 1748809679906,
             "ap2ID": 1748399388891
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "Shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1748810940868,
+            "ap2ID": 1748399460523
         }
     ],
     "unitsKey": "MM",

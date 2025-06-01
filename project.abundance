@@ -1513,11 +1513,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 190
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 190
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -1573,7 +1573,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 12.2
+                            "ioValue": 18.2
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1669,7 +1669,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 190
+                            "ioValue": -190
                         },
                         {
                             "name": "yDist",
@@ -1677,7 +1677,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 6.2
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1695,7 +1695,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 190
                         },
                         {
                             "name": "yDist",
@@ -1703,7 +1703,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 18.2
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."

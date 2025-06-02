@@ -1427,7 +1427,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 12
+                            "ioValue": 13
                         }
                     ],
                     "description": "Creates a new circle."
@@ -1581,8 +1581,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5423580786026201,
-                    "y": 0.6073752711496746,
+                    "x": 0.5703056768558952,
+                    "y": 0.5227765726681127,
                     "uniqueID": 1748811298539,
                     "ioValues": [
                         {
@@ -1607,8 +1607,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6751091703056769,
-                    "y": 0.33405639913232105,
+                    "x": 0.8655021834061135,
+                    "y": 0.3665943600867679,
                     "uniqueID": 1748811367402,
                     "ioValues": [
                         {
@@ -1659,8 +1659,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5467248908296943,
-                    "y": 0.7440347071583514,
+                    "x": 0.5921397379912664,
+                    "y": 0.6399132321041214,
                     "uniqueID": 1748811879386,
                     "ioValues": [
                         {
@@ -1685,8 +1685,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5519650655021834,
-                    "y": 0.876355748373102,
+                    "x": 0.6200873362445415,
+                    "y": 0.7830802603036876,
                     "uniqueID": 1748811882981,
                     "ioValues": [
                         {
@@ -1711,8 +1711,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.7021834061135371,
-                    "y": 0.7592190889370932,
+                    "x": 0.46026200873362444,
+                    "y": 0.928416485900217,
                     "uniqueID": 1748835961992,
                     "ioValues": [
                         {
@@ -1729,11 +1729,71 @@
                         },
                         {
                             "name": "File Type",
-                            "ioValue": "SVG"
+                            "ioValue": "STEP"
                         }
                     ],
                     "description": "Export Atom, let's you choose a type of file to Export.",
-                    "type": null,
+                    "type": "STEP",
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "partName": "Spacers"
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.44454148471615723,
+                    "y": 0.5748373101952278,
+                    "uniqueID": 1748836068890,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1748811107438
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "Spacers"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "STEP"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": "STEP",
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "partName": "Spacers"
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.4,
+                    "y": 0.26898047722342733,
+                    "uniqueID": 1748836091055,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1748811063683
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "Spacers"
+                        },
+                        {
+                            "name": "File Type",
+                            "ioValue": "STEP"
+                        }
+                    ],
+                    "description": "Export Atom, let's you choose a type of file to Export.",
+                    "type": "STEP",
                     "resolution": 96,
                     "importIndex": 0,
                     "partName": "Spacers"
@@ -1792,6 +1852,13 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1748811063683,
+                    "ap2ID": 1748836091055
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1748811107438,
                     "ap2ID": 1748811298539
@@ -1802,6 +1869,13 @@
                     "ap2Primary": true,
                     "ap1ID": 1748811107438,
                     "ap2ID": 1748811295321
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1748811107438,
+                    "ap2ID": 1748836068890
                 },
                 {
                     "ap1Name": "geometry",

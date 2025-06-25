@@ -263,8 +263,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6556603773584906,
-                    "y": 0.34851485148514855,
+                    "x": 0.6627358490566038,
+                    "y": 0.23762376237623764,
                     "uniqueID": 1748381386524,
                     "ioValues": [
                         {
@@ -289,13 +289,13 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.5514150943396227,
-                    "y": 0.48910891089108915,
+                    "x": 0.5731132075471698,
+                    "y": 0.4158415841584159,
                     "uniqueID": 1748381385945,
                     "ioValues": [
                         {
                             "name": "geometry1",
-                            "ioValue": ""
+                            "ioValue": "7e0eac19-0c95-4eb4-ac4f-352aeefc5198"
                         },
                         {
                             "name": "geometry2",
@@ -443,8 +443,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.8117924528301887,
-                    "y": 0.12277227722772278,
+                    "x": 0.8080188679245284,
+                    "y": 0.12871287128712872,
                     "uniqueID": "232efd9c-a4e4-4bba-ae79-922a3aa79cb7",
                     "ioValues": [
                         {
@@ -457,7 +457,7 @@
                         },
                         {
                             "name": "Part Name",
-                            "ioValue": "planet"
+                            "ioValue": "PlanetHub"
                         },
                         {
                             "name": "File Type",
@@ -468,7 +468,7 @@
                     "type": "STEP",
                     "resolution": 96,
                     "importIndex": 0,
-                    "partName": "planet"
+                    "partName": "PlanetHub"
                 },
                 {
                     "atomType": "Circle",
@@ -627,28 +627,10 @@
                     "description": "Subtracts shape two from shape one."
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.46933962264150947,
-                    "y": 0.09306930693069307,
-                    "uniqueID": "9c1395cc-751a-478e-9ded-f875c996f3c6",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "9962da83-ab71-4963-bcae-6face0f9d7eb"
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 28
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.4047169811320755,
-                    "y": 0.09504950495049505,
+                    "x": 0.4037735849056604,
+                    "y": 0.07722772277227723,
                     "uniqueID": "9962da83-ab71-4963-bcae-6face0f9d7eb",
                     "ioValues": [
                         {
@@ -673,52 +655,12 @@
                     "description": "Creates a new circle."
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.4514150943396226,
-                    "y": 0.2435643564356436,
-                    "uniqueID": "aa7459e0-f8c2-4ec2-b6ab-5c2f6cb9e5fe",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "2975a2e2-78ad-4490-b0c6-ee942e9d2797"
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 28
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.5334905660377358,
-                    "y": 0.10891089108910891,
-                    "uniqueID": "912b8d94-cda1-40b9-a1db-d77fd0969cb9",
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": "9c1395cc-751a-478e-9ded-f875c996f3c6"
-                        },
-                        {
-                            "name": "geometry2",
-                            "ioValue": "aa7459e0-f8c2-4ec2-b6ab-5c2f6cb9e5fe"
-                        }
-                    ],
-                    "description": "Subtracts shape two from shape one."
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5108490566037736,
-                    "y": 0.3108910891089109,
+                    "x": 0.5132075471698113,
+                    "y": 0.31287128712871287,
                     "uniqueID": "7e0eac19-0c95-4eb4-ac4f-352aeefc5198",
                     "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": "912b8d94-cda1-40b9-a1db-d77fd0969cb9"
-                        },
                         {
                             "name": "Shape 2",
                             "ioValue": "d02cbca4-7465-4705-9df6-396474603bf9"
@@ -726,6 +668,18 @@
                         {
                             "name": "Shape 3",
                             "ioValue": "3907a472-94fc-466c-8393-2f63b6487122"
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": "778f28e9-b7f7-44c7-b689-f506d0506139"
+                        },
+                        {
+                            "name": "Shape 5",
+                            "ioValue": "13b011f8-be80-40ac-abba-bfc1eadd5190"
+                        },
+                        {
+                            "name": "Shape 7",
+                            "ioValue": "7b0c6c67-db05-402f-a651-d594b76a76e1"
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -821,8 +775,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.3462264150943396,
-                    "y": 0.4316831683168316,
+                    "x": 0.3433962264150944,
+                    "y": 0.5069306930693069,
                     "uniqueID": "13b011f8-be80-40ac-abba-bfc1eadd5190",
                     "ioValues": [
                         {
@@ -843,6 +797,24 @@
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.4599056603773585,
+                    "y": 0.11089108910891089,
+                    "uniqueID": "7b0c6c67-db05-402f-a651-d594b76a76e1",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "9962da83-ab71-4963-bcae-6face0f9d7eb"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 28
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 }
             ],
             "allConnectors": [
@@ -1065,38 +1037,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": "9c1395cc-751a-478e-9ded-f875c996f3c6",
-                    "ap2ID": "912b8d94-cda1-40b9-a1db-d77fd0969cb9"
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": "9962da83-ab71-4963-bcae-6face0f9d7eb",
-                    "ap2ID": "9c1395cc-751a-478e-9ded-f875c996f3c6"
+                    "ap2ID": "7b0c6c67-db05-402f-a651-d594b76a76e1"
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "2975a2e2-78ad-4490-b0c6-ee942e9d2797",
-                    "ap2ID": "aa7459e0-f8c2-4ec2-b6ab-5c2f6cb9e5fe"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "geometry1",
                     "ap2Primary": false,
-                    "ap1ID": "aa7459e0-f8c2-4ec2-b6ab-5c2f6cb9e5fe",
-                    "ap2ID": "912b8d94-cda1-40b9-a1db-d77fd0969cb9"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": "912b8d94-cda1-40b9-a1db-d77fd0969cb9",
-                    "ap2ID": "7e0eac19-0c95-4eb4-ac4f-352aeefc5198"
+                    "ap1ID": "7e0eac19-0c95-4eb4-ac4f-352aeefc5198",
+                    "ap2ID": 1748381385945
                 },
                 {
                     "ap1Name": "geometry",
@@ -1132,6 +1083,27 @@
                     "ap2Primary": true,
                     "ap1ID": "3907a472-94fc-466c-8393-2f63b6487122",
                     "ap2ID": "13b011f8-be80-40ac-abba-bfc1eadd5190"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": "778f28e9-b7f7-44c7-b689-f506d0506139",
+                    "ap2ID": "7e0eac19-0c95-4eb4-ac4f-352aeefc5198"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": "13b011f8-be80-40ac-abba-bfc1eadd5190",
+                    "ap2ID": "7e0eac19-0c95-4eb4-ac4f-352aeefc5198"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 7",
+                    "ap2Primary": false,
+                    "ap1ID": "7b0c6c67-db05-402f-a651-d594b76a76e1",
+                    "ap2ID": "7e0eac19-0c95-4eb4-ac4f-352aeefc5198"
                 }
             ],
             "fileTypeVersion": 1,

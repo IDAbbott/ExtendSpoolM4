@@ -263,8 +263,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6627358490566038,
-                    "y": 0.23762376237623764,
+                    "x": 0.6669811320754717,
+                    "y": 0.34653465346534656,
                     "uniqueID": 1748381386524,
                     "ioValues": [
                         {
@@ -467,7 +467,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 5
+                            "ioValue": 6
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -771,6 +771,52 @@
                         }
                     ],
                     "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.5632075471698113,
+                    "y": 0.09702970297029703,
+                    "uniqueID": "c9e36b8f-f8ba-4c8a-9312-e8bf20aec0c3",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 12
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.5716981132075472,
+                    "y": 0.22970297029702968,
+                    "uniqueID": "82631389-f7c2-42bf-8a8a-e0ef3515fc18",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.6212264150943396,
+                    "y": 0.11485148514851484,
+                    "uniqueID": "25f50df3-fffb-486f-969b-562e886d8f0e",
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": "c9e36b8f-f8ba-4c8a-9312-e8bf20aec0c3"
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": "82631389-f7c2-42bf-8a8a-e0ef3515fc18"
+                        }
+                    ],
+                    "description": "Subtracts shape two from shape one."
                 }
             ],
             "allConnectors": [
@@ -1053,6 +1099,20 @@
                     "ap2Primary": true,
                     "ap1ID": "530a7dbc-37dc-4c77-9715-e7e9d512422f",
                     "ap2ID": "7b0c6c67-db05-402f-a651-d594b76a76e1"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": "c9e36b8f-f8ba-4c8a-9312-e8bf20aec0c3",
+                    "ap2ID": "25f50df3-fffb-486f-969b-562e886d8f0e"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": "82631389-f7c2-42bf-8a8a-e0ef3515fc18",
+                    "ap2ID": "25f50df3-fffb-486f-969b-562e886d8f0e"
                 }
             ],
             "fileTypeVersion": 1,

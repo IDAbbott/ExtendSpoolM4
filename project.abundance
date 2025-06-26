@@ -449,7 +449,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 22.4
+                            "ioValue": 22.2
                         }
                     ],
                     "description": "Creates a new circle."
@@ -458,7 +458,7 @@
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.10707547169811321,
-                    "y": 0.5663366336633663,
+                    "y": 0.5544554455445544,
                     "uniqueID": "a5103aa1-f7de-40e7-844c-6a7f0c2e9972",
                     "ioValues": [
                         {

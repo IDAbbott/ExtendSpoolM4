@@ -441,45 +441,15 @@
                     "partName": "planet"
                 },
                 {
-                    "atomType": "Export",
-                    "name": "Export",
-                    "x": 0.8080188679245284,
-                    "y": 0.12871287128712872,
-                    "uniqueID": "232efd9c-a4e4-4bba-ae79-922a3aa79cb7",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1748381386524
-                        },
-                        {
-                            "name": "Resolution (dpi)",
-                            "ioValue": 96
-                        },
-                        {
-                            "name": "Part Name",
-                            "ioValue": "PlanetHub"
-                        },
-                        {
-                            "name": "File Type",
-                            "ioValue": "STEP"
-                        }
-                    ],
-                    "description": "Export Atom, let's you choose a type of file to Export.",
-                    "type": "STEP",
-                    "resolution": 96,
-                    "importIndex": 0,
-                    "partName": "PlanetHub"
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.05,
-                    "y": 0.5881188118811882,
+                    "x": 0.03773584905660377,
+                    "y": 0.5346534653465346,
                     "uniqueID": "6bf69799-4386-4758-9002-83a3ca0eb37d",
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 18
+                            "ioValue": 22.4
                         }
                     ],
                     "description": "Creates a new circle."
@@ -487,8 +457,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.11462264150943396,
-                    "y": 0.592079207920792,
+                    "x": 0.1160377358490566,
+                    "y": 0.5603960396039603,
                     "uniqueID": "a5103aa1-f7de-40e7-844c-6a7f0c2e9972",
                     "ioValues": [
                         {
@@ -531,8 +501,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.17594339622641508,
-                    "y": 0.6198019801980198,
+                    "x": 0.1820754716981132,
+                    "y": 0.592079207920792,
                     "uniqueID": "3ae18d36-2e58-48c8-94f1-237b71b61643",
                     "ioValues": [
                         {
@@ -625,34 +595,6 @@
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.4037735849056604,
-                    "y": 0.07722772277227723,
-                    "uniqueID": "9962da83-ab71-4963-bcae-6face0f9d7eb",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 22
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.3481132075471698,
-                    "y": 0.11881188118811882,
-                    "uniqueID": "2975a2e2-78ad-4490-b0c6-ee942e9d2797",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 18
-                        }
-                    ],
-                    "description": "Creates a new circle."
                 },
                 {
                     "atomType": "Assembly",
@@ -807,7 +749,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "9962da83-ab71-4963-bcae-6face0f9d7eb"
+                            "ioValue": "530a7dbc-37dc-4c77-9715-e7e9d512422f"
                         },
                         {
                             "name": "height",
@@ -815,6 +757,20 @@
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.3830188679245283,
+                    "y": 0.09702970297029703,
+                    "uniqueID": "530a7dbc-37dc-4c77-9715-e7e9d512422f",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 28
+                        }
+                    ],
+                    "description": "Creates a new circle."
                 }
             ],
             "allConnectors": [
@@ -908,13 +864,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1748381386524,
                     "ap2ID": 1748381386669
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1748381386524,
-                    "ap2ID": "232efd9c-a4e4-4bba-ae79-922a3aa79cb7"
                 },
                 {
                     "ap1Name": "geometry",
@@ -1037,13 +986,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "9962da83-ab71-4963-bcae-6face0f9d7eb",
-                    "ap2ID": "7b0c6c67-db05-402f-a651-d594b76a76e1"
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": "7e0eac19-0c95-4eb4-ac4f-352aeefc5198",
@@ -1104,6 +1046,13 @@
                     "ap2Primary": false,
                     "ap1ID": "7b0c6c67-db05-402f-a651-d594b76a76e1",
                     "ap2ID": "7e0eac19-0c95-4eb4-ac4f-352aeefc5198"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "530a7dbc-37dc-4c77-9715-e7e9d512422f",
+                    "ap2ID": "7b0c6c67-db05-402f-a651-d594b76a76e1"
                 }
             ],
             "fileTypeVersion": 1,

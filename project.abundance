@@ -14,12 +14,7 @@
             "x": 0.9336244541484716,
             "y": 0.46203904555314534,
             "uniqueID": 1748377672174,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1748399460523
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -895,7 +890,7 @@
                         },
                         {
                             "name": "Part Name",
-                            "ioValue": "planet"
+                            "ioValue": "planetCore"
                         },
                         {
                             "name": "File Type",
@@ -906,7 +901,7 @@
                     "type": "STEP",
                     "resolution": 96,
                     "importIndex": 0,
-                    "partName": "planet"
+                    "partName": "planetCore"
                 }
             ],
             "allConnectors": [

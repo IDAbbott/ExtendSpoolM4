@@ -1223,11 +1223,11 @@
                         },
                         {
                             "name": "File Type",
-                            "ioValue": "STEP"
+                            "ioValue": "SVG"
                         }
                     ],
                     "description": "Export Atom, let's you choose a type of file to Export.",
-                    "type": "STEP",
+                    "type": "SVG",
                     "resolution": 96,
                     "importIndex": 0,
                     "partName": "Center"
@@ -1253,8 +1253,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.155188679245283,
-                    "y": 0.5623762376237624,
+                    "x": 0.15943396226415094,
+                    "y": 0.5782178217821783,
                     "uniqueID": "4b0fbc3a-6965-4938-b2be-59aef20cd25d",
                     "ioValues": [
                         {
@@ -1267,7 +1267,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 50
+                            "ioValue": 40
                         },
                         {
                             "name": "zDist",
